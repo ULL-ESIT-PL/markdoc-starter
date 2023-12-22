@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Classes
 ---
 
 # {% $markdoc.frontmatter.title %}

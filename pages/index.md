@@ -42,3 +42,9 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 ### Deploy to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+
+## My Component
+
+{% mycomp %}
+This is a test of a component copied from the callout component.
+{% /mycomp %}
