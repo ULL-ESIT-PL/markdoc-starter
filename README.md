@@ -32,9 +32,7 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 
 ### Deploy with Vercel
 
-It will deploy [crguezl/markdoc-starter](https://github.com/crguezl/markdoc-starter):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/crguezl/markdoc-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/)
 
 ### Deploy to Netlify
 

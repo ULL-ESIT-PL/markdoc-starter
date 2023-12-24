@@ -5,4 +5,5 @@ export * from './SideNav';
 export * from './TableOfContents';
 export * from './TopNav';
 export * from './Banner';
+export * from './MyComp';
 
