@@ -39,6 +39,8 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
 
+See it at [https://markdoc-starter-tan.vercel.app/](https://markdoc-starter-tan.vercel.app/)
+
 ### Deploy to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
@@ -48,3 +50,13 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 {% mycomp %}
 This is a test of a component copied from the callout component.
 {% /mycomp %}
+
+## References
+
+- See [Using Markdoc with Next.js](https://markdoc.dev/docs/nextjs)
+- [Charlie Gerard interview: How Stripe Powers Their Documentation with MarkDoc](https://youtu.be/M1E0dUVuC48?si=nhtYYwOv12HRLzNS)  GitHub channel in Youtube. - Open Source Friday #opensource
+- See [Dinesh Pandiyan - Markdoc: What is it and why do I love it?](https://youtu.be/XIw-0fCpP_4?si=POxU243rzlm1e71K)
+- [How Stripe builds interactive docs with Markdoc](https://stripe.com/blog/markdoc) by Ryan Paul September 13, 2022
+- [Building Markdoc: A Powerful, Flexible Open Source Markdown Framework - Mike BiFulco](https://youtu.be/hH_pZTIS_-o?si=ox8v--KSAA9xRN2q) 28 December 2022
+- [Getting started with Markdoc in Next.js](https://dev.to/stripe/getting-started-with-markdoc-in-nextjs-ioj). Charlie Gerard for Stripe
+

@@ -18,6 +18,8 @@ Show the password
 
 Markdoc uses **partials** to reuse content across documents. A separate Markdoc file stores the content, and it's referenced from within the `partial` tag.
 
+**Example of partial**:
+
 {% partial variables={sdk: "Ruby", version: 3} file="header.md" /%}
 
 
