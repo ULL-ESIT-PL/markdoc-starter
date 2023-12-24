@@ -41,5 +41,9 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 ## References
 
 - See [Using Markdoc with Next.js](https://markdoc.dev/docs/nextjs)
-- [Charlie Gerard interview](https://youtu.be/M1E0dUVuC48?si=BCIs4Rjb42pBr_1_) How Stripe Powers Their Documentation with MarkDoc - Open Source Friday #opensource
+- [Charlie Gerard interview: How Stripe Powers Their Documentation with MarkDoc](https://youtu.be/M1E0dUVuC48?si=nhtYYwOv12HRLzNS)  GitHub channel in Youtube. - Open Source Friday #opensource
+- See [Dinesh Pandiyan - Markdoc: What is it and why do I love it?](https://youtu.be/XIw-0fCpP_4?si=POxU243rzlm1e71K)
+- [How Stripe builds interactive docs with Markdoc](https://stripe.com/blog/markdoc) by Ryan Paul September 13, 2022
+- [Building Markdoc: A Powerful, Flexible Open Source Markdown Framework - Mike BiFulco](https://youtu.be/hH_pZTIS_-o?si=ox8v--KSAA9xRN2q) 28 December 2022
+- [Getting started with Markdoc in Next.js](https://dev.to/stripe/getting-started-with-markdoc-in-nextjs-ioj). Charlie Gerard for Stripe
 

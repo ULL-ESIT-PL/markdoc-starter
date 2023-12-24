@@ -18,11 +18,21 @@ function Resources() {
     
 # Resources
 
+The text:
+
+\`\`\`
+           Name is \{\% $name \%\\}
+\`\`\`
+
+is converted to:
+
 Name is {% $name %}
 
 Here is some **code**:
 
+\`\`\`js
        const foo = 'bar';
+\`\`\`
 
 ## References
 
