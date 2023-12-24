@@ -3,13 +3,18 @@
 import React from "react";
 import Markdoc from "@markdoc/markdoc";
 import { Banner } from "../components";
+import { upper, uppercase, includes } from "../markdoc/functions";
 
 function Resources() {
     const config = {
         variables: {
             name: "Rizel",
+            countries: ["AR", "AU", "ES", "JP", "NG", "US"],
         },
         functions: {
+            upper,
+            uppercase,
+            includes,
         },
         tags: {
         },
@@ -33,6 +38,21 @@ Here is some **code**:
 \`\`\`js
        const foo = 'bar';
 \`\`\`
+
+## Functions
+
+Here we call \`uppercase("hello world")\` is some text in uppercase:
+
+{% uppercase("hello world") %}
+
+Here we make several calls to function \`includes($countries, "AR")\`:
+
+{% if includes($countries, "AR") %} 🇦🇷 {% /if %}
+{% if includes($countries, "AU") %} 🇦🇺 {% /if %}
+{% if includes($countries, "ES") %} 🇪🇸 {% /if %}
+{% if includes($countries, "JP") %} 🇯🇵 {% /if %}
+{% if includes($countries, "NG") %} 🇳🇬 {% /if %}
+{% if includes($countries, "US") %} 🇺🇸 {% /if %}
 
 ## References
 
