@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "save": "git ci -am 'save'; git push"
+    "save": "git ci -am 'save'; git push -u origin main; git push -u crguezl main"
   },
   "dependencies": {
     "@markdoc/markdoc": "latest",

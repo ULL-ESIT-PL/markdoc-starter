@@ -28,15 +28,19 @@ You can start editing the page by modifying `index.md`. The page auto-updates as
 
 ## Deploy
 
-The quickest way to deploy your own version of this boilerplate is by deploying it with [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com/) by clicking one of the buttons below.
+The quickest way to deploy your own version of this boilerplate is by deploying it with [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com/) by clicking one of the buttons below. But if you are using the free version the repo has to be in your own GitHub account not in an organization and must be public.
 
 ### Deploy with Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
+It will deploy [crguezl/markdoc-starter](https://github.com/crguezl/markdoc-starter):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/crguezl/markdoc-starter)
 
 ### Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+It will deploy [crguezl/markdoc-starter](https://github.com/crguezl/markdoc-starter):
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/crguezl/markdoc-starter)
 
 ## References
 
