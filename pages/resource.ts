@@ -59,7 +59,16 @@ Here we make several calls to function \`includes($countries, "AR")\`:
 ## Banner tag
 
 {% banner type="banner" %}
-This is a banner
+This is a banner that produces an error message in the server console: 
+
+\`\`\` 
+error: {
+    id: 'attribute-value-invalid',
+    level: 'error',
+    message: "Attribute 'type' must match one of ["info","warning"]. Got 'banner' instead."
+}
+\`\`\` 
+
 {% /banner %}
 
 {% banner type="warning" %}
