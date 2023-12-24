@@ -75,6 +75,8 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         <Link href="/classes">Classes</Link>
         <Link href="/tasks">Tasks</Link>
         <Link href="/github">GitHub</Link>
+        <Link href="/resource">Resources</Link>
+
       </TopNav>
       <div className="page">
         <SideNav />

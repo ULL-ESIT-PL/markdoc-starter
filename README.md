@@ -37,3 +37,9 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 ### Deploy to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+
+## References
+
+- See [Using Markdoc with Next.js](https://markdoc.dev/docs/nextjs)
+- [Charlie Gerard interview](https://youtu.be/M1E0dUVuC48?si=BCIs4Rjb42pBr_1_) How Stripe Powers Their Documentation with MarkDoc - Open Source Friday #opensource
+
