@@ -5,7 +5,8 @@ export const banner = {
   attributes: {
     type: {
       type: String,
-      required: true
+      required: true,
+      matches: ['info', 'warning', ]
     },
   },
 };

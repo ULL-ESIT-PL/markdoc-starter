@@ -3,6 +3,7 @@
 import React from "react";
 import Markdoc from "@markdoc/markdoc";
 import { Banner } from "../components";
+import { banner } from "../markdoc/tags";
 import { upper, uppercase, includes } from "../markdoc/functions";
 
 function Resources() {
@@ -17,7 +18,8 @@ function Resources() {
             includes,
         },
         tags: {
-        },
+            banner,
+          },
     }
     const content = `
     
@@ -26,7 +28,7 @@ function Resources() {
 The text:
 
 \`\`\`
-           Name is \{\% $name \%\\}
+           Name is \\{\% $name \%\\}
 \`\`\`
 
 is converted to:
@@ -54,6 +56,21 @@ Here we make several calls to function \`includes($countries, "AR")\`:
 {% if includes($countries, "NG") %} 🇳🇬 {% /if %}
 {% if includes($countries, "US") %} 🇺🇸 {% /if %}
 
+## Banner tag
+
+{% banner type="banner" %}
+This is a banner
+{% /banner %}
+
+{% banner type="warning" %}
+This is a warning
+{% /banner %}
+
+{% banner type="alert" %}
+This is an alert
+{% /banner %}
+
+
 ## References
 
 - See [Dinesh Pandiyan - Markdoc: What is it and why do I love it?](https://youtu.be/XIw-0fCpP_4?si=POxU243rzlm1e71K)
@@ -63,8 +80,9 @@ Here we make several calls to function \`includes($countries, "AR")\`:
 - [Getting started with Markdoc in Next.js](https://dev.to/stripe/getting-started-with-markdoc-in-nextjs-ioj). Charlie Gerard for Stripe
 Posted on 11 may 2022
     `;
+    
     const ast = Markdoc.parse(content);
-    const errors = Markdoc.validate(ast, config);
+    const errors = Markdoc.validate(ast, config); // https://markdoc.dev/docs/validation
     if (errors.length > 0) {
         console.error(errors);
     }
