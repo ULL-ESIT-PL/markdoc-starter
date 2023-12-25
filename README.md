@@ -48,4 +48,6 @@ It will deploy [crguezl/markdoc-starter](https://github.com/crguezl/markdoc-star
 - [How Stripe builds interactive docs with Markdoc](https://stripe.com/blog/markdoc) by Ryan Paul September 13, 2022
 - [Building Markdoc: A Powerful, Flexible Open Source Markdown Framework - Mike BiFulco](https://youtu.be/hH_pZTIS_-o?si=ox8v--KSAA9xRN2q) 28 December 2022
 - [Getting started with Markdoc in Next.js](https://dev.to/stripe/getting-started-with-markdoc-in-nextjs-ioj). Charlie Gerard for Stripe
+- [nextmv-io/docs-code-example](https://github.com/nextmv-io/docs-code-example)
+
 
