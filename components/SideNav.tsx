@@ -4,8 +4,17 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
+    title: 'Campus',
+    links: [
+      {
+        href: 'https://campusingenieriaytecnologia2324.ull.es/course/view.php?id=2324090147', 
+        children: 'PL 23/24'
+      },
+      {
+        href: "https://campusingenieriaytecnologia2324.ull.es/course/view.php?id=2324090147#section-5",
+        children: 'Prácticas'
+      }
+],
   },
 ];
 

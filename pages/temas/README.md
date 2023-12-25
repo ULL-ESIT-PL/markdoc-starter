@@ -1,5 +1,0 @@
----
----
-# Temas
-
-<temas></temas>

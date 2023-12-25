@@ -26,6 +26,8 @@ En la NavBar vaya a **Google > Google Chat**
 * Superadas las partes: prácticas, tfa y las pruebas objetivas  la nota es la media ponderada de las partes:
   $$0,4 \times practicas + 0,5 \times objetivas + 0,1 \times tfa$$
 
+![/images/evaluacion.png"](/images/evaluacion.png)
+
 <img src="/images/evaluacion.png" />
 
 ### Corrección de las Prácticas
@@ -65,19 +67,19 @@ Date de alta en la comunidad <a :href="$var.google_plus">Currents de PL</a>.
 
 ### Práctica: GitHub Campus Expert
 
-* [Práctica Opcional: GitHub Campus Expert (github-campus-expert)](/practicas/github-campus-expert)
+* [Práctica Opcional: GitHub Campus Expert (github-campus-expert)](/tasks/github-campus-expert)
 
 ### Práctica: GitHub Project Board
 
-* [GitHub Project Board: github-project-board](/practicas/github-project-board)
+* [GitHub Project Board: github-project-board](/tasks/github-project-board)
 
 ### Práctica: Visual Studio Code
 
-* [Visual Studio Code](/practicas/visual-studio-code)
+* [Visual Studio Code](/tasks/visual-studio-code)
 
 ### Práctica: IAAS
 
-* [IAAS](/practicas/iaas)
+* [IAAS](/tasks/iaas)
 
 ## La Bibliografía
 

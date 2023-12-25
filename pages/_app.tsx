@@ -74,6 +74,7 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
       <TopNav>
         <Link href="/classes">Classes</Link>
         <Link href="/tasks">Tasks</Link>
+        <Link href="/topics">Topics</Link>
         <Link href="/github">GitHub</Link>
         <Link href="/markdoc-learning">Markdoc Learning</Link>
         <Link href="/experiments">Experiments</Link>
