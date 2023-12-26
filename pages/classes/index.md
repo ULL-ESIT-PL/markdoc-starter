@@ -6,4 +6,4 @@ title: Classes
 
 ## January
 
-* [2024-01-30](/classes/january/2024-01-30-leccion)
+* [2024-01-22](/classes/january/2024-01-22-leccion)
